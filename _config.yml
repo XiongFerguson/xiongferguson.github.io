@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "J. Xiong / Personal Website"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "Personal Photo.png"
-  name             : "Ferguson J. Xiong"
+  name             : "J. Xiong"
   pronouns         : # example: "she/her"  
   bio              : "Research Assistant in the field of IoT and Human-Robot Collaboration"
   location         : "Guangzhou, China"
