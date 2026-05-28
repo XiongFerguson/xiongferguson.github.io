@@ -291,7 +291,6 @@
         .publication-main { min-width: 0; }
         .publication-visual { border: 1px solid #e6e9ec; border-radius: 8px; overflow: hidden; background: #fff; }
         .publication-visual img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; padding: 1rem; background: #f8fafb; }
-        .publication-visual img.publication-image--wide { aspect-ratio: 16 / 7; padding: 0.35rem; }
         .publication-visual-placeholder { display: flex; min-height: 11rem; align-items: center; justify-content: center; padding: 1rem; color: #3f7180; background: #f6fbfd; text-align: center; font-weight: 700; line-height: 1.35; }
         @media (max-width: 760px) { .publication-detail { grid-template-columns: 1fr; } }
       </style>
@@ -310,7 +309,7 @@
         
           </div>
           <aside class="publication-visual" aria-label="Publication visual">
-            <img src="/images/publications/case-2026-wide.png" alt="IEEE CASE 2026 conference logo" class="publication-image--wide">
+            <img src="/images/publications/case-2026-wide.png" alt="IEEE CASE 2026 conference logo" style="aspect-ratio: 16 / 7; padding: 0.35rem;">
           </aside>
         </div>
       </section>
