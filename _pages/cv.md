@@ -13,7 +13,7 @@ Education
 ======
 * Master of Philosophy in Smart Manufacturing, [HKUST(GZ) / 香港科技大学（广州）](https://www.hkust-gz.edu.cn/)
 * Bachelor of Engineering in Mechanical Engineering, [Northwestern Polytechnical University / 西北工业大学](https://www.nwpu.edu.cn/)
-* Exchange & Project, [RWTH Aachen University / 亚琛工业大学](https://www.rwth-aachen.de/)
+* Exchange & Project, [RWTH Aachen University / 亚琛工业大学](https://www.rwth-aachen.de/), [Technical University of Munich / 慕尼黑工业大学](https://www.tum.de/)
 
 Working experience
 ======
