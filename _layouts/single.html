@@ -44,7 +44,71 @@ layout: default
         </header>
       {% endunless %}
 
+      {% if page.collection == 'publications' %}
+        <style>
+          .publication-detail {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(220px, 0.38fr);
+            gap: 1.4rem;
+            align-items: start;
+          }
+
+          .publication-main {
+            min-width: 0;
+          }
+
+          .publication-visual {
+            border: 1px solid #e6e9ec;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+          }
+
+          .publication-visual img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: contain;
+            padding: 1rem;
+            background: #f8fafb;
+          }
+
+          .publication-visual-placeholder {
+            display: flex;
+            min-height: 11rem;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            color: #3f7180;
+            background: #f6fbfd;
+            text-align: center;
+            font-weight: 700;
+            line-height: 1.35;
+          }
+
+          .publication-visual-caption {
+            padding: 0.8rem 0.9rem;
+            color: #5c646a;
+            font-size: 0.78rem;
+            line-height: 1.45;
+            background: #fff;
+            border-top: 1px solid #e6e9ec;
+          }
+
+          @media (max-width: 760px) {
+            .publication-detail {
+              grid-template-columns: 1fr;
+            }
+          }
+        </style>
+      {% endif %}
+
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' %}
+          <div class="publication-detail">
+            <div class="publication-main">
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl %}
@@ -60,6 +124,19 @@ layout: default
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        {% if page.collection == 'publications' %}
+            </div>
+            <aside class="publication-visual" aria-label="Publication visual">
+              {% if page.publication_image %}
+                <img src="{{ page.publication_image }}" alt="{{ page.publication_image_alt | default: page.venue | default: page.title | strip_html | escape_once }}">
+              {% else %}
+                <div class="publication-visual-placeholder">{{ page.publication_visual_label | default: page.venue | default: "Publication visual" }}</div>
+              {% endif %}
+              <div class="publication-visual-caption">{{ page.publication_visual_caption | default: "Journal logo, conference logo, or paper image can be placed here." }}</div>
+            </aside>
+          </div>
+        {% endif %}
       </section>
 
       <footer class="page__meta">
