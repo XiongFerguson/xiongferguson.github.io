@@ -292,8 +292,7 @@
   .bio-intro,
   .bio-photo-panel,
   .bio-focus,
-  .bio-area,
-  .bio-step {
+  .bio-area {
     border: 1px solid #e6e9ec;
     border-radius: 8px;
     background: #fff;
@@ -371,51 +370,9 @@
     line-height: 1.45;
   }
 
-  .bio-workflow {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.65rem;
-    margin: 1rem 0 1.35rem;
-  }
-
-  .bio-step {
-    min-height: 6.5rem;
-    padding: 0.85rem;
-    background: #fbfcfd;
-  }
-
-  .bio-step-number {
-    display: inline-flex;
-    width: 1.65rem;
-    height: 1.65rem;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.5rem;
-    border-radius: 50%;
-    color: #fff;
-    background: #6b7b83;
-    font-size: 0.72rem;
-    font-weight: 700;
-  }
-
-  .bio-step strong {
-    display: block;
-    margin-bottom: 0.25rem;
-    color: #2f3a40;
-    font-size: 0.86rem;
-  }
-
-  .bio-step p {
-    margin: 0;
-    color: #5c646a;
-    font-size: 0.78rem;
-    line-height: 1.4;
-  }
-
   @media (max-width: 760px) {
     .bio-visual,
-    .bio-area-grid,
-    .bio-workflow {
+    .bio-area-grid {
       grid-template-columns: 1fr;
     }
 
@@ -428,7 +385,7 @@
 <div class="bio-visual">
   <div class="bio-intro">
     <p>I am J. Xiong, a Research Postgraduate within the thrust of Smart Manufacturing (SMMG) of the Systems Hub at <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>. I am supervised by <a href="https://scholar.google.com/citations?user=3auvsZQAAAAJ&amp;hl=en">Dr. Guo Daqiang</a>.</p>
-    <p>My research focuses on human-centric manufacturing, human-robot interaction, human factors and ergonomics, and the human-centric adaptation of robotics.</p>
+    <p>My research focuses on human-centric manufacturing, human-robot collaboration, human factors and ergonomics, and the human-centric adaptation of robotics.</p>
     <p>Please feel free to contact me by email for discussion, collaboration, or further information.</p>
   </div>
 
@@ -450,7 +407,7 @@
     <p>Designing manufacturing systems around human capability, safety, efficiency, and well-being.</p>
   </div>
   <div class="bio-area">
-    <span>Human-Robot Interaction</span>
+    <span>Human-Robot Collaboration</span>
     <p>Studying how operators and robots communicate, coordinate, and collaborate in shared tasks.</p>
   </div>
   <div class="bio-area">
@@ -463,29 +420,6 @@
   </div>
 </div>
 
-<strong class="bio-section-title">Research Workflow</strong>
-<div class="bio-workflow">
-  <div class="bio-step">
-    <div class="bio-step-number">1</div>
-    <strong>Human State Sensing</strong>
-    <p>Collect physiological and task-related signals from operators.</p>
-  </div>
-  <div class="bio-step">
-    <div class="bio-step-number">2</div>
-    <strong>State Interpretation</strong>
-    <p>Translate signals into meaningful human-state understanding.</p>
-  </div>
-  <div class="bio-step">
-    <div class="bio-step-number">3</div>
-    <strong>Robot Adaptation</strong>
-    <p>Connect human-state awareness with robot behavior and decisions.</p>
-  </div>
-  <div class="bio-step">
-    <div class="bio-step-number">4</div>
-    <strong>Adaptive HRC</strong>
-    <p>Support safer, more efficient, and more responsive collaboration.</p>
-  </div>
-</div>
 
 
         
