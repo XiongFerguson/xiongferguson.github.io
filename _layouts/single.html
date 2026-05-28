@@ -86,15 +86,6 @@ layout: default
             line-height: 1.35;
           }
 
-          .publication-visual-caption {
-            padding: 0.8rem 0.9rem;
-            color: #5c646a;
-            font-size: 0.78rem;
-            line-height: 1.45;
-            background: #fff;
-            border-top: 1px solid #e6e9ec;
-          }
-
           @media (max-width: 760px) {
             .publication-detail {
               grid-template-columns: 1fr;
@@ -133,7 +124,6 @@ layout: default
               {% else %}
                 <div class="publication-visual-placeholder">{{ page.publication_visual_label | default: page.venue | default: "Publication visual" }}</div>
               {% endif %}
-              <div class="publication-visual-caption">{{ page.publication_visual_caption | default: "Journal logo, conference logo, or paper image can be placed here." }}</div>
             </aside>
           </div>
         {% endif %}
