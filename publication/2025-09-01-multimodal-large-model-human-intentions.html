@@ -286,7 +286,17 @@
         </header>
       
 
+      <style>
+        .publication-detail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.38fr); gap: 1.4rem; align-items: start; }
+        .publication-main { min-width: 0; }
+        .publication-visual { border: 1px solid #e6e9ec; border-radius: 8px; overflow: hidden; background: #fff; }
+        .publication-visual-placeholder { display: flex; min-height: 11rem; align-items: center; justify-content: center; padding: 1rem; color: #3f7180; background: #f6fbfd; text-align: center; font-weight: 700; line-height: 1.35; }
+        .publication-visual-caption { padding: 0.8rem 0.9rem; color: #5c646a; font-size: 0.78rem; line-height: 1.45; background: #fff; border-top: 1px solid #e6e9ec; }
+        @media (max-width: 760px) { .publication-detail { grid-template-columns: 1fr; } }
+      </style>
       <section class="page__content" itemprop="text">
+        <div class="publication-detail">
+          <div class="publication-main">
         <p>Published in <i>IFAC-PapersOnLine</i> as part of the 11th IFAC Conference on Manufacturing Modelling, Management and Control, MIM 2025.</p>
 
 <table>
@@ -304,6 +314,12 @@
         
 
         
+          </div>
+          <aside class="publication-visual" aria-label="Publication visual">
+            <div class="publication-visual-placeholder">IFAC-PapersOnLine</div>
+            <div class="publication-visual-caption">Journal or conference image for this publication.</div>
+          </aside>
+        </div>
       </section>
 
       <footer class="page__meta">
@@ -416,4 +432,3 @@
 
   </body>
 </html>
-
