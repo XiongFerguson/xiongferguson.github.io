@@ -7,7 +7,7 @@ excerpt: 'A multimodal large model for improving robot understanding of human in
 date: 2025-09-01
 venue: 'IFAC-PapersOnLine'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2405896325012376'
-citation: 'Li, J., <strong>Xiong, J.</strong>, Zhang, Z., &amp; Guo, D. (2025). &quot;A Multimodal Large Model to Enhance Robot Understanding of Human Intentions for Accurate Human Robot Collaborative Manufacturing.&quot; <i>IFAC-PapersOnLine</i>, 59(10), 2820-2825. https://doi.org/10.1016/j.ifacol.2025.09.474'
+citation: 'Li, J., <span style="background-color: #fff3a3; color: #222; font-weight: 700; padding: 0 0.15em;">Xiong, J.</span>, Zhang, Z., &amp; Guo, D. (2025). &quot;A Multimodal Large Model to Enhance Robot Understanding of Human Intentions for Accurate Human Robot Collaborative Manufacturing.&quot; <i>IFAC-PapersOnLine</i>, 59(10), 2820-2825. https://doi.org/10.1016/j.ifacol.2025.09.474'
 ---
 
 Published in <i>IFAC-PapersOnLine</i> as part of the 11th IFAC Conference on Manufacturing Modelling, Management and Control, MIM 2025.
