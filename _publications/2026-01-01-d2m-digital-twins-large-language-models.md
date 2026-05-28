@@ -7,8 +7,10 @@ excerpt: 'A conceptual framework for design-to-manufacturing by integrating digi
 date: 2026-01-01
 venue: 'Digital Twin'
 paperurl: 'https://www.tandfonline.com/doi/full/10.1080/27525783.2026.2645373?scroll=top&needAccess=true'
+publication_image: '/images/publications/digital-twin-journal.jpg'
+publication_image_alt: 'Digital Twin journal cover'
 publication_visual_label: 'Digital Twin'
-publication_visual_caption: 'Journal logo or paper image can be placed here.'
+publication_visual_caption: 'Digital Twin journal cover.'
 citation: 'Zhang, Z., Li, J., <span style="background-color: #fff3a3; color: #222; font-weight: 700; padding: 0 0.15em;">Xiong, J.</span>, Tang, D., Wang, Q., &amp; Guo, D. (2026). &quot;D2M (design-to-manufacturing) by integrating digital twins and large language models: conceptual framework.&quot; <i>Digital Twin</i>. https://doi.org/10.1080/27525783.2026.2645373'
 ---
 
