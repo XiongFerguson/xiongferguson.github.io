@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Hello and welcome to my personal website! My name is J. Xiong, and I am currently a Research Postgraduate within the thrust of Smart Manufacturing (SMMG) of the Systems Hub at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/). It is my privilege to be supervised by [Dr. Guo Daqiang](https://scholar.google.com/citations?user=3auvsZQAAAAJ&hl=en), who guides me in subjects involving Human-Robot Collaboration (HRC), Internet of Things (IoT), and sensors. My research interests include human-centric manufacturing and human-robot collaboration, with a focus on monitoring the physical and physiological conditions of human operators through sensor-based systems.
+I am J. Xiong, a Research Postgraduate within the thrust of Smart Manufacturing (SMMG) of the Systems Hub at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/). I am supervised by [Dr. Guo Daqiang](https://scholar.google.com/citations?user=3auvsZQAAAAJ&hl=en), and my research focuses on human-centric manufacturing, human-robot interaction, human factors and ergonomics, and the human-centric adaptation of robotics. My work aims to support effective and adaptive human-robot collaboration by integrating sensing technologies and intelligent systems for understanding and monitoring the physical and physiological conditions of human operators.
 
-Please feel free to contact me by email if you have anything to discuss or suggest.
+Please feel free to contact me by email for discussion, collaboration, or further information.
