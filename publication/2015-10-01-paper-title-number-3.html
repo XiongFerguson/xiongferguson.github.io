@@ -286,8 +286,17 @@
         </header>
       
 
-      <section class="page__content" itemprop="text">
-        <p>The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above “citation” field will automatically be included below this section in a smaller font.</p>
+            <style>
+        .publication-detail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 0.38fr); gap: 1.4rem; align-items: start; }
+        .publication-main { min-width: 0; }
+        .publication-visual { border: 1px solid #e6e9ec; border-radius: 8px; overflow: hidden; background: #fff; }
+        .publication-visual-placeholder { display: flex; min-height: 11rem; align-items: center; justify-content: center; padding: 1rem; color: #3f7180; background: #f6fbfd; text-align: center; font-weight: 700; line-height: 1.35; }
+        .publication-visual-caption { padding: 0.8rem 0.9rem; color: #5c646a; font-size: 0.78rem; line-height: 1.45; background: #fff; border-top: 1px solid #e6e9ec; }
+        @media (max-width: 760px) { .publication-detail { grid-template-columns: 1fr; } }
+      </style>      <section class="page__content" itemprop="text">
+        <div class="publication-detail">
+          <div class="publication-main">
+        <p>The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above “citation�?field will automatically be included below this section in a smaller font.</p>
 
 
         
@@ -295,6 +304,12 @@
         
 
         
+          </div>
+          <aside class="publication-visual" aria-label="Publication visual">
+            <div class="publication-visual-placeholder">Journal 1</div>
+            <div class="publication-visual-caption">Journal logo, conference logo, or paper image can be placed here.</div>
+          </aside>
+        </div>
       </section>
 
       <footer class="page__meta">
