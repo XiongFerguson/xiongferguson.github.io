@@ -73,6 +73,11 @@ layout: default
             background: #f8fafb;
           }
 
+          .publication-visual img.publication-image--wide {
+            aspect-ratio: 16 / 7;
+            padding: 0.35rem;
+          }
+
           .publication-visual-placeholder {
             display: flex;
             min-height: 11rem;
@@ -120,7 +125,7 @@ layout: default
             </div>
             <aside class="publication-visual" aria-label="Publication visual">
               {% if page.publication_image %}
-                <img src="{{ page.publication_image }}" alt="{{ page.publication_image_alt | default: page.venue | default: page.title | strip_html | escape_once }}">
+                <img src="{{ page.publication_image }}" alt="{{ page.publication_image_alt | default: page.venue | default: page.title | strip_html | escape_once }}"{% if page.publication_image_class %} class="{{ page.publication_image_class }}"{% endif %}>
               {% else %}
                 <div class="publication-visual-placeholder">{{ page.publication_visual_label | default: page.venue | default: "Publication visual" }}</div>
               {% endif %}
