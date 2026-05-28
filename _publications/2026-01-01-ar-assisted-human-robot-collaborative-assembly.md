@@ -9,7 +9,7 @@ venue: '2026 IEEE 22nd International Conference on Automation Science and Engine
 paperurl: 'https://2026.ieeecase.org/'
 publication_image: '/images/publications/case-2026-wide.png'
 publication_image_alt: 'IEEE CASE 2026 conference logo'
-publication_image_class: 'publication-image--wide'
+publication_image_style: 'aspect-ratio: 16 / 7; padding: 0.35rem;'
 publication_visual_label: 'IEEE CASE 2026'
 citation: '<span style="background-color: #fff3a3; color: #222; font-weight: 700; padding: 0 0.15em;">Xiong, J.</span>, Wang, Q., &amp; Guo, D. (2026). &quot;Design and Evaluation of an AR-assisted Human-Robot Collaborative Assembly System for Enhanced Efficiency and Worker Well-being.&quot; <i>2026 IEEE 22nd International Conference on Automation Science and Engineering (CASE)</i>.'
 ---
