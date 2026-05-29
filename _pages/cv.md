@@ -18,7 +18,7 @@ Education
 Working/Intern experience
 ======
 * UAV R&D Engineer Intern, [Meituan Robotics Research Institute / 美团机器人研究院](https://www.meituan.com/technology)
-* Intern, [AVIC Xi'an Aircraft Industry Group](https://www.xac.com.cn/)
+* Intern, [AVIC Xi'an Aircraft Industry Group / 中航西飞](https://www.xac.com.cn/)
 * Research Assistant, [HKUST(GZ) / 香港科技大学（广州）](https://www.hkust-gz.edu.cn/)
 
 Publications
