@@ -21,6 +21,13 @@ Working/Intern experience
 * Intern, [AVIC Xi'an Aircraft Industry Group / 中航西飞](https://www.xac.com.cn/)
 * Research Assistant, [HKUST(GZ) / 香港科技大学（广州）](https://www.hkust-gz.edu.cn/)
 
+Awards
+======
+* National Scholarship / 国家奖学金
+* Research Postgraduate Studentship / 研究生奖学金
+* Excellent Graduate of NWPU / 西北工业大学优秀本科毕业生
+* University-level Scholarship for Excellence for Three Consecutive Undergraduate Years / 连续三年校级优秀学生
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
