@@ -54,4 +54,11 @@ awards:
 - name: National Scholarship
 - name: Research Postgraduate Studentship
 - name: Excellent Graduate of NWPU
-- name: University-level Scholarship for Excellence for Three Consecutive Undergraduate Years
+
+experience:
+- name: Meituan Robotics Research Institute
+  logo: /assets/images/badges/meituan.png
+  position: UAV R&D Engineer Intern
+- name: AVIC Xi'an Aircraft Industry Group
+  logo: /assets/images/badges/avic.png
+  position: Intern
