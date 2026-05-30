@@ -36,17 +36,21 @@ portrait_url: /assets/images/photos/profile-avatar.jpg
 
 education:
 - name: HKUST(GZ)
+  url: https://www.hkust-gz.edu.cn/
   logo: /assets/images/badges/hkust-symbol.png
   dept: Smart Manufacturing
   position: Master of Philosophy
 - name: Northwestern Polytechnical University
+  url: https://www.nwpu.edu.cn/
   logo: /assets/images/badges/nwpu-symbol.png
   dept: Mechanical Engineering
   position: Bachelor of Engineering
 - name: RWTH Aachen University
+  url: https://www.rwth-aachen.de/
   logo: /assets/images/badges/rwth-aachen.svg
   position: Exchange & Project
 - name: Technical University of Munich
+  url: https://www.tum.de/
   logo: /assets/images/badges/tum.svg
   position: Exchange & Project
 
