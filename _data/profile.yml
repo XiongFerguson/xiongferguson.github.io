@@ -33,3 +33,25 @@ short_bio: >-
   <p>Please feel free to contact me by email for discussion, collaboration, or further information.</p>
 
 portrait_url: /assets/images/photos/profile-avatar.jpg
+
+education:
+- name: HKUST(GZ)
+  logo: /assets/images/badges/hkust-symbol.png
+  dept: Smart Manufacturing
+  position: Master of Philosophy
+- name: Northwestern Polytechnical University
+  logo: /assets/images/badges/nwpu-symbol.png
+  dept: Mechanical Engineering
+  position: Bachelor of Engineering
+- name: RWTH Aachen University
+  logo: /assets/images/badges/rwth-aachen.svg
+  position: Exchange & Project
+- name: Technical University of Munich
+  logo: /assets/images/badges/tum.svg
+  position: Exchange & Project
+
+awards:
+- name: National Scholarship
+- name: Research Postgraduate Studentship
+- name: Excellent Graduate of NWPU
+- name: University-level Scholarship for Excellence for Three Consecutive Undergraduate Years
